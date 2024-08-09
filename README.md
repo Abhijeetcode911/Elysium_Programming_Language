@@ -1,4 +1,4 @@
-Custom Programming Language Interpreter
+**Custom Programming Language Interpreter**
 Overview
 This project is a simple interpreter for a custom programming language, implemented in C++. The language supports basic arithmetic operations, variable assignments, and print statements. It also includes functionality for parsing and executing expressions, handling variables, and outputting results.
 Features
@@ -30,6 +30,6 @@ The language can be extended by modifying the grammar and updating the lexer and
 1. Grammar Updates: Modify the BNF grammar to introduce new syntax or features.
 2. Lexer Updates: Adjust the lexer to recognize new tokens.
 3. Parser Updates: Extend the parser to handle new syntax rules and generate appropriate AST nodes.
-4. 
+
 Contact
- For any questions, feel free to contact: - Abhijeet Jha: (mail id: abhijeetjha911@gmail.com) - GitHub: [yourusername]([https://github.com/yourusername](https://github.com/Abhijeetcode911)) 
+ For any questions, feel free to contact: - Abhijeet Jha: (mail id: abhijeetjha911@gmail.com) - GitHub: [Abhijeetcode911]((https://github.com/Abhijeetcode911)) 
