@@ -1,0 +1,28 @@
+<program> ::= <statement>+
+
+<statement> ::= <assignment_statement> | <print_statement>
+
+<assignment_statement> ::= <identifier> "=" <expression> ";"
+<print_statement> ::= "print" "(" <expression> ")" ";"
+
+<expression> ::= <term> (("+" | "-") <term>)*
+<term> ::= <factor> (("*" | "/") <factor>)*
+<factor> ::= <number> | <identifier> | "(" <expression> ")"
+
+<identifier> ::= <letter> (<letter> | <digit>)*
+<number> ::= <digit>+
+
+<letter> ::= "a" | "b" | ... | "z" | "A" | "B" | ... | "Z"
+<digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+<number> ::= <digit>+ | <digit>+ "." <digit>*
+
+<float> ::= <digit>+ "." <digit>+  | "." <digit>+
+
+<function_definition> ::= "function" <identifier> "(" <parameter_list> ")" "{" <statement>+ "}"
+<function_call> ::= <identifier> "(" <argument_list> ")"
+
+<parameter_list> ::= <identifier> ("," <identifier>)*
+<argument_list> ::= <expression> ("," <expression>)*
+
+<statement> ::= <assignment_statement> | <print_statement> | <function_call> ";"
